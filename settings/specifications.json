@@ -36,19 +36,15 @@
                 "operation_name":"columns_combination",
             "params":{
                 "in_columns_list":[
-                    [
-                        "Driving_License",
-                        "Previously_Insured"
-                    ]
+                    "Driving_License",
+                    "Previously_Insured"
                 ],
                 "out_columns":[
                     "Insurance_Driving_Risk"
                 ],
                 "coefficients_list":[
-                    [
-                        1,
-                        1
-                    ]
+                    1,
+                    1
                 ],
                 "biases":[
                     0
@@ -63,19 +59,15 @@
                 "operation_name":"columns_combination",
             "params":{
                 "in_columns_list":[
-                    [
-                        "Annual_Premium",
-                        "Vintage"
-                    ]
+                    "Annual_Premium",
+                    "Vintage"
                 ],
                 "out_columns":[
                     "Premium_Per_Day"
                 ],
                 "coefficients_list":[
-                    [
-                        1,
-                        1
-                    ]
+                    1,
+                    1
                 ],
                 "biases":[
                     0

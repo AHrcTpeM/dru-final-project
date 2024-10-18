@@ -8,7 +8,7 @@ import json
 
 import pickle
 from sklearn.discriminant_analysis import LinearDiscriminantAnalysis
-from settings.constants import TRAIN_SPLIT_CSV, TRAIN_CSV, SAVED_ESTIMATOR
+from settings.constants import TRAIN_CSV, SAVED_ESTIMATOR
 
 app = Flask(__name__)
 
@@ -39,7 +39,7 @@ def fit():
     with open('settings/specifications.json') as f:
         specifications = json.load(f)
 
-    raw_train = pd.read_csv(TRAIN_SPLIT_CSV)
+    raw_train = pd.read_csv(TRAIN_CSV)
     x_columns = specifications['description']['X']
     y_column = specifications['description']['y']
 

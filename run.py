@@ -60,8 +60,8 @@ import pandas as pd
 from sklearn.svm import SVC
 from sklearn.metrics import accuracy_score
 
-from utils import DataLoader, Estimator
-from settings.constants import TRAIN_CSV, VAL_CSV, TRAIN_SPLIT_CSV
+from utils import DataLoader, Estimator, Dataset
+from settings.constants import TRAIN_CSV, VAL_CSV
 
 with open('settings/specifications.json') as f:
     specifications = json.load(f)
